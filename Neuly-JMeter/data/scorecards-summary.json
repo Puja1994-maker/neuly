@@ -1,0 +1,636 @@
+{
+  "source": "c:\\Users\\PUJABANSODE\\Neuly\\Neuly-JMeter\\data\\Neuly_All_Age_Screener_Manual_Scorecards.xlsx",
+  "sheets": [
+    {
+      "name": "Start Here",
+      "rowCount": 17,
+      "headers": [
+        "Neuly screener manual scorecards"
+      ],
+      "preview": [
+        [
+          "Neuly screener manual scorecards"
+        ],
+        [
+          "Workbook built from the uploaded Neuly Screener Build Specification and your existing scorecard workbook."
+        ],
+        [
+          "Purpose"
+        ],
+        [
+          "Enter responses manually using each question's dropdown. Score columns, totals, subscales and simple scoring-guide bands calculate automatically where the specification provides them."
+        ],
+        [
+          "Important"
+        ]
+      ]
+    },
+    {
+      "name": "Overview",
+      "rowCount": 10,
+      "headers": [
+        "Neuly screener overview"
+      ],
+      "preview": [
+        [
+          "Neuly screener overview"
+        ],
+        [
+          "Age ranges and score method based on your requested list and the uploaded build specification."
+        ],
+        [
+          "Screener",
+          "Website category / name",
+          "Respondent / age range",
+          "Items scored",
+          "Score method",
+          "Notes"
+        ],
+        [
+          "Vanderbilt (NICHQ)",
+          "ADHD traits, mood and behaviour: an in-depth look",
+          "Parent; ages 6–12",
+          "1–47 symptoms; 48–55 performance",
+          "Symptom item values 0–3; performance 1–5; area counts and performance impact",
+          "See score summary on Vanderbilt sheet."
+        ],
+        [
+          "SWAN",
+          "ADHD traits: strengths and challenges",
+          "Parent; ages 5–18",
+          "18",
+          "-3 to +3; average items 1–9 and 10–18",
+          "Profile; lower area average is the overall score per spec."
+        ]
+      ]
+    },
+    {
+      "name": "SWAN",
+      "rowCount": 34,
+      "headers": [
+        "SWAN — manual scorecard"
+      ],
+      "preview": [
+        [
+          "SWAN — manual scorecard"
+        ],
+        [
+          "Parent report · ages 5–18 · 18 items"
+        ],
+        [
+          "Child / respondent:",
+          "",
+          "Age (years/months):",
+          "",
+          "Date completed:",
+          ""
+        ],
+        [
+          "Instructions:",
+          "Select one response from each dropdown in column C. Scores and summary calculate automatically. Leave unanswered items blank."
+        ],
+        [
+          "Q#",
+          "Question",
+          "Your response (select)",
+          "Score",
+          "Scoring / section",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "Vanderbilt",
+      "rowCount": 71,
+      "headers": [
+        "Vanderbilt (NICHQ) — manual scorecard"
+      ],
+      "preview": [
+        [
+          "Vanderbilt (NICHQ) — manual scorecard"
+        ],
+        [
+          "Parent report · ages 6–12 · 55 scored items plus optional comments"
+        ],
+        [
+          "Child / respondent:",
+          "",
+          "Age:",
+          "",
+          "Date:",
+          ""
+        ],
+        [
+          "Instructions:",
+          "Choose one response for each item. Q1–47 score 0–3; Q48–55 score 1–5. Leave blank if unanswered."
+        ],
+        [
+          "Q#",
+          "Question",
+          "Your response (select)",
+          "Score",
+          "Scoring / section",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "SCARED Parent",
+      "rowCount": 42,
+      "headers": [
+        "Sr.No",
+        "Questions",
+        "Not True&#10;or Hardly&#10;Ever True (0)",
+        "&#10;Somewhat&#10;True or&#10;Sometimes&#10;True (1)",
+        "Very True&#10;or Often&#10;True (2)",
+        "Group",
+        "Group Total",
+        "Total Sum",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "preview": [
+        [
+          "Sr.No",
+          "Questions",
+          "Not True&#10;or Hardly&#10;Ever True (0)",
+          "&#10;Somewhat&#10;True or&#10;Sometimes&#10;True (1)",
+          "Very True&#10;or Often&#10;True (2)",
+          "Group",
+          "Group Total",
+          "Total Sum",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "1",
+          "When my child feels frightened, it is hard for him/her to breathe ",
+          "0",
+          "",
+          "",
+          "Panic Disorder or Significant&#10;Somatic Symptoms",
+          "0",
+          "52",
+          "May indicate the presence of an anxiety disorder",
+          "",
+          "Group",
+          "Sum of Group Total",
+          "",
+          "1",
+          "When my child feels frightened, it is hard for him/her to breathe ",
+          "Panic Disorder or Significant&#10;Somatic Symptoms"
+        ],
+        [
+          "2",
+          "My child gets headaches when he/she is at school ",
+          "0",
+          "",
+          "",
+          "School Avoidance",
+          "0",
+          "",
+          "No Panic Disorder",
+          "",
+          "Generalized Anxiety Disorder",
+          "13",
+          "More specific indicates the presence of generalized anxiety disorder",
+          "2",
+          "My child gets headaches when he/she is at school ",
+          "School Avoidance"
+        ],
+        [
+          "3",
+          "My child doesn’t like to be with people he/she doesn’t know well ",
+          "0",
+          "",
+          "",
+          "Social Anxiety Disorder",
+          "0",
+          "",
+          "May indicates Generalized Anxiety Disorder",
+          "",
+          "Panic Disorder or Significant&#10;Somatic Symptoms",
+          "16",
+          "More specific indicates the presence of panic disorder",
+          "3",
+          "My child doesn’t like to be with people he/she doesn’t know well ",
+          "Social Anxiety Disorder"
+        ],
+        [
+          "4",
+          "My child gets scared if he/she sleeps away from home ",
+          "0",
+          "",
+          "",
+          "Separation Anxiety Disorder",
+          "0",
+          "",
+          "",
+          "",
+          "School Avoidance",
+          "4",
+          "More specific indicates the presence of school avoidance",
+          "4",
+          "My child gets scared if he/she sleeps away from home ",
+          "Separation Anxiety Disorder"
+        ]
+      ]
+    },
+    {
+      "name": "GAD-7",
+      "rowCount": 13,
+      "headers": [
+        "GAD-7 Assesment",
+        ""
+      ],
+      "preview": [
+        [
+          "GAD-7 Assesment",
+          ""
+        ],
+        [
+          "Total",
+          "9",
+          ""
+        ],
+        [
+          "Result",
+          "mild anxiety",
+          ""
+        ],
+        [
+          "Questions",
+          "Not at all(0)",
+          "Several days(1)",
+          "More than half the days(2)",
+          "Nearly every day(3)",
+          "Value"
+        ],
+        [
+          "Feeling nervous, anxious, or on edge",
+          "0",
+          "",
+          "",
+          "",
+          "0"
+        ]
+      ]
+    },
+    {
+      "name": "CAST",
+      "rowCount": 45,
+      "headers": [
+        "Childhood Autism Spectrum",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "preview": [
+        [
+          "Childhood Autism Spectrum",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "1",
+          "Doesn’t indicate ASD",
+          "7",
+          "Multi-user"
+        ],
+        [
+          "2",
+          "Doesn’t indicate ASD",
+          "9",
+          "Single-User"
+        ],
+        [
+          "Sr.No",
+          "Questions",
+          "Expected Result",
+          "Diagnonsis(Mother)",
+          "Diagnonsis(Father)",
+          "Diagnosis(Teacher)",
+          "Mother",
+          "Father",
+          "Teacher",
+          "Average",
+          "Status"
+        ]
+      ]
+    },
+    {
+      "name": "AQ-Child",
+      "rowCount": 83,
+      "headers": [
+        "AQ-Child — parent manual scorecard",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "preview": [
+        [
+          "AQ-Child — parent manual scorecard",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Parent report · ages 4–11 · 50 items",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Child / respondent:",
+          "",
+          "Age (years/months):",
+          "",
+          "Date completed:",
+          "",
+          "Questionarries",
+          "Group"
+        ],
+        [
+          "Instructions:",
+          "Select one response from each dropdown in column C. Scores and summary calculate automatically. Leave unanswered items blank.",
+          "",
+          "",
+          "",
+          "",
+          "S/he prefers to do things with others rather than on her/his own.",
+          "Social skills"
+        ],
+        [
+          "Q#",
+          "Question",
+          "Your response (select)",
+          "Score",
+          "Scoring / section",
+          "Groups",
+          "S/he finds social situations easy.",
+          "Social skills"
+        ]
+      ]
+    },
+    {
+      "name": "Q-CHAT",
+      "rowCount": 38,
+      "headers": [
+        "Q-CHAT-25 — parent manual scorecard",
+        "Dropdown options",
+        "Q1 options",
+        "Q2 options",
+        "Q3 options",
+        "Q4 options",
+        "Q5 options",
+        "Q6 options",
+        "Q7 options",
+        "Q8 options",
+        "Q9 options",
+        "Q10 options",
+        "Q11 options",
+        "Q12 options",
+        "Q13 options",
+        "Q14 options",
+        "Q15 options",
+        "Q16 options",
+        "Q17 options",
+        "Q18 options",
+        "Q19 options",
+        "Q20 options",
+        "Q21 options",
+        "Q22 options",
+        "Q23 options",
+        "Q24 options",
+        "Q25 options"
+      ],
+      "preview": [
+        [
+          "Q-CHAT-25 — parent manual scorecard",
+          "Dropdown options",
+          "Q1 options",
+          "Q2 options",
+          "Q3 options",
+          "Q4 options",
+          "Q5 options",
+          "Q6 options",
+          "Q7 options",
+          "Q8 options",
+          "Q9 options",
+          "Q10 options",
+          "Q11 options",
+          "Q12 options",
+          "Q13 options",
+          "Q14 options",
+          "Q15 options",
+          "Q16 options",
+          "Q17 options",
+          "Q18 options",
+          "Q19 options",
+          "Q20 options",
+          "Q21 options",
+          "Q22 options",
+          "Q23 options",
+          "Q24 options",
+          "Q25 options"
+        ],
+        [
+          "Parent report · toddlers 18–30 months · 25 items",
+          "10-50 words",
+          "Always",
+          "Very easy",
+          "Always",
+          "Always",
+          "Many times a day",
+          "Many times a day",
+          "Several hours",
+          "None – s/he has not started speaking yet",
+          "Many times a day",
+          "Many times a day",
+          "Many times a day",
+          "Many times a day",
+          "Always",
+          "Very easy",
+          "Always",
+          "Many times a day",
+          "Very typical",
+          "Many times a day",
+          "Many times a day",
+          "Many times a day",
+          "Always",
+          "Most of the day",
+          "Many times a day",
+          "Always",
+          "Many times a day"
+        ],
+        [
+          "Child / respondent:",
+          "",
+          "Age (years/months):",
+          "",
+          "Date completed:",
+          "",
+          "51-100 words",
+          "Usually",
+          "Quite easy",
+          "Usually",
+          "Usually",
+          "A few times a day",
+          "A few times a day",
+          "Half an hour",
+          "Less than 10 words",
+          "A few times a day",
+          "A few times a day",
+          "A few times a day",
+          "A few times a day",
+          "Usually",
+          "Quite easy",
+          "Usually",
+          "A few times a day",
+          "Quite typical",
+          "A few times a day",
+          "A few times a day",
+          "A few times a day",
+          "Usually",
+          "Several hours",
+          "A few times a day",
+          "Usually",
+          "A few times a day"
+        ],
+        [
+          "Instructions:",
+          "Select one response from each dropdown in column C. Scores and summary calculate automatically. Leave unanswered items blank.",
+          "A couple of minutes",
+          "Sometimes",
+          "Quite difficult",
+          "Sometimes",
+          "Sometimes",
+          "A few times a week",
+          "A few times a week",
+          "Ten minutes",
+          "10-50 words",
+          "A few times a week",
+          "A few times a week",
+          "A few times a week",
+          "A few times a week",
+          "Sometimes",
+          "Quite difficult",
+          "Sometimes",
+          "A few times a week",
+          "Slightly unusual",
+          "A few times a week",
+          "A few times a week",
+          "A few times a week",
+          "Sometimes",
+          "Half an hour",
+          "A few times a week",
+          "Sometimes",
+          "A few times a week"
+        ],
+        [
+          "Q#",
+          "Question",
+          "Your response (select)",
+          "Score",
+          "Scoring / section",
+          "",
+          "A few times a day",
+          "Rarely",
+          "Very difficult",
+          "Rarely",
+          "Rarely",
+          "Less than once a week",
+          "Less than once a week",
+          "A couple of minutes",
+          "51-100 words",
+          "Less than once a week",
+          "Less than once a week",
+          "Less than once a week",
+          "Less than once a week",
+          "Rarely",
+          "Very difficult",
+          "Rarely",
+          "Less than once a week",
+          "Very unusual",
+          "Less than once a week",
+          "Less than once a week",
+          "Less than once a week",
+          "Rarely",
+          "Ten minutes",
+          "Less than once a week",
+          "Rarely",
+          "Less than once a week"
+        ]
+      ]
+    },
+    {
+      "name": "Sheet1",
+      "rowCount": 16,
+      "headers": [
+        "S/he finds it easy to make up stories.",
+        "Communication"
+      ],
+      "preview": [
+        [
+          "S/he finds it easy to make up stories.",
+          "Communication"
+        ],
+        [
+          "S/he finds it easy to understand what someone is thinking or feeling.",
+          "Communication"
+        ],
+        [
+          "S/he enjoys social chit-chat.",
+          "Communication"
+        ],
+        [
+          "S/he is good at social chit-chat.",
+          "Communication"
+        ],
+        [
+          "S/he often finds that s/he doesn't know how to keep a conversation going.",
+          "Communication"
+        ]
+      ]
+    }
+  ]
+}

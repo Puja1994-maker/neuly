@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "entity": "neuly",
+  "description": "Default field mapping and formula definition for the Neuly calculation.",
+  "required_inputs": [
+    "base_value",
+    "growth_rate",
+    "volume",
+    "efficiency",
+    "risk_factor"
+  ],
+  "mapping": {
+    "base_value": "input.base_value",
+    "growth_rate": "input.growth_rate",
+    "volume": "input.volume",
+    "efficiency": "input.efficiency",
+    "risk_factor": "input.risk_factor"
+  },
+  "calculation": {
+    "formula": "((base_value * (1 + growth_rate)) * volume * efficiency) / risk_factor",
+    "round_to": 4,
+    "notes": [
+      "growth_rate is expressed as a decimal, for example 0.12 = 12%",
+      "efficiency should be between 0 and 1 for normalized scoring",
+      "risk_factor must be greater than 0"
+    ]
+  }
+}

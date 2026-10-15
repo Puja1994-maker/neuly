@@ -1,0 +1,35 @@
+# Copy to neuly.properties and adjust. Do not commit real secrets.
+neuly_jmeter_root=C:/Users/PUJABANSODE/Neuly/Neuly-JMeter/
+host=demo.neuly.ai
+protocol=https
+referer=https://demo.neuly.ai/screeners
+threads=1
+rampup=1
+loops=1
+think_time_ms=250
+connect_timeout_ms=10000
+response_timeout_ms=30000
+
+# Per-assessment toggles (true/false). Default true when omitted.
+run.vanderbilt_assessment=true
+run.swan_adhd_parent=true
+run.screen_for_child_anxiety_related_disorders_parent=true
+run.gad_7_anxiety=true
+run.the_childhood_autism_spectrum_test=true
+run.aq_child_parent=true
+run.q_chat_parent=true
+
+# SWAN report submission (POST /api/screener-report). Default false — sends email.
+enable_swan_report_submit=false
+# Answer source: random (new mix each run) or csv (row from data/swan_answer_vectors.csv)
+swan_answer_mode=random
+# Recipient for report email — use synthetic in automation; set your address only for manual QA.
+swan_report_email=qa.neuly.synthetic+swan@example.test
+swan_child_age_years=7
+swan_child_age_months=0
+swan_marketing_opt_in=false
+# Verify item/subscale averages match manual scorecard (-3..+3, mean of items 1-9 and 10-18)
+swan_verify_scoring=true
+# Set by run_neuly_tests.bat; override only if running JMeter manually
+# neuly_jmeter_root=C:/path/to/Neuly-JMeter/
+# swan_run_meta_path=results/swan_report_run.json

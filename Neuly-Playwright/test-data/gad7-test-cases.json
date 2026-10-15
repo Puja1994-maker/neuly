@@ -1,0 +1,57 @@
+{
+  "screener": "GAD-7",
+  "formKey": "gad_7_anxiety",
+  "cases": [
+    {
+      "id": "GAD7-BASE-001",
+      "title": "Baseline mild (6× several_days, Q7 more_than_half, Q8 very_difficult)",
+      "scoredAnswers": [
+        "several_days",
+        "several_days",
+        "several_days",
+        "several_days",
+        "several_days",
+        "several_days",
+        "more_than_half_the_days"
+      ],
+      "difficultyAnswer": "very_difficult",
+      "expectedTotal": 8,
+      "expectedClassification": "Mild",
+      "sendReport": false
+    },
+    {
+      "id": "GAD7-MIN-001",
+      "title": "Minimum score all not_at_all",
+      "scoredAnswers": [
+        "not_at_all",
+        "not_at_all",
+        "not_at_all",
+        "not_at_all",
+        "not_at_all",
+        "not_at_all",
+        "not_at_all"
+      ],
+      "difficultyAnswer": "not_difficult_at_all",
+      "expectedTotal": 0,
+      "expectedClassification": "Minimal",
+      "sendReport": false
+    },
+    {
+      "id": "GAD7-MAX-001",
+      "title": "Maximum scored all nearly_every_day",
+      "scoredAnswers": [
+        "nearly_every_day",
+        "nearly_every_day",
+        "nearly_every_day",
+        "nearly_every_day",
+        "nearly_every_day",
+        "nearly_every_day",
+        "nearly_every_day"
+      ],
+      "difficultyAnswer": "extremely_difficult",
+      "expectedTotal": 21,
+      "expectedClassification": "Severe",
+      "sendReport": false
+    }
+  ]
+}

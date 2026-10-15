@@ -1,0 +1,10 @@
+const base = 'https://demo.neuly.ai';
+const html = await (await fetch(`${base}/screeners`)).text();
+const src = html.match(/src="([^"]+)"/)?.[1];
+const jsUrl = src.startsWith('/') ? base + src : src;
+const js = await (await fetch(jsUrl)).text();
+const apis = [...js.matchAll(/\/api\/[a-zA-Z0-9_/?=&.-]+/g)].map((m) => m[0]);
+const screeners = [...js.matchAll(/screeners\/[a-zA-Z0-9_-]+/g)].map((m) => m[0]);
+console.log('bundle', jsUrl);
+console.log('unique apis', [...new Set(apis)].sort().join('\n'));
+console.log('screener paths sample', [...new Set(screeners)].sort().slice(0, 80).join('\n'));

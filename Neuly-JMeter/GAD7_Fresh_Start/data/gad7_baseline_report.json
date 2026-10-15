@@ -1,0 +1,33 @@
+{
+  "email": "qa.neuly.synthetic+gad7@example.test",
+  "screenerTitle": "GAD-7 (Generalised Anxiety Disorder Assessment)",
+  "screenerId": "gad_7_anxiety",
+  "completedAt": "2026-10-13T12:00:00.000Z",
+  "questions": [
+    {"number":1,"questionId":"gad7_nervous","optionId":"several_days","text":"Feeling nervous, anxious, or on edge","answer":"Several days","points":1,"scored":true},
+    {"number":2,"questionId":"gad7_worry_control","optionId":"several_days","text":"Not being able to stop or control worrying","answer":"Several days","points":1,"scored":true},
+    {"number":3,"questionId":"gad7_worry_much","optionId":"several_days","text":"Worrying too much about different things","answer":"Several days","points":1,"scored":true},
+    {"number":4,"questionId":"gad7_relax","optionId":"several_days","text":"Trouble relaxing","answer":"Several days","points":1,"scored":true},
+    {"number":5,"questionId":"gad7_restless","optionId":"several_days","text":"Being so restless that it is hard to sit still","answer":"Several days","points":1,"scored":true},
+    {"number":6,"questionId":"gad7_irritable","optionId":"several_days","text":"Becoming easily annoyed or irritable","answer":"Several days","points":1,"scored":true},
+    {"number":7,"questionId":"gad7_afraid","optionId":"more_than_half_the_days","text":"Feeling afraid, as if something awful might happen","answer":"More than half the days","points":2,"scored":true},
+    {"number":8,"questionId":"gad7_difficulty","optionId":"very_difficult","text":"If you checked any problems, how difficult have they made it for you to do your work, take care of things at home, or get along with other people?","answer":"Very difficult","points":0,"scored":false}
+  ],
+  "submittedAnswers": {
+    "gad7_nervous": "several_days",
+    "gad7_worry_control": "several_days",
+    "gad7_worry_much": "several_days",
+    "gad7_relax": "several_days",
+    "gad7_restless": "several_days",
+    "gad7_irritable": "several_days",
+    "gad7_afraid": "more_than_half_the_days",
+    "gad7_difficulty": "very_difficult"
+  },
+  "scoreResult": {
+    "formKey": "gad_7_anxiety",
+    "totalScore": 8,
+    "overallClassification": "Mild",
+    "overallSeverity": "mild"
+  },
+  "marketingOptIn": false
+}

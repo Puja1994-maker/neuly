@@ -1,0 +1,22 @@
+{
+  "name": "neuly-playwright",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Neuly screener E2E automation (demo.neuly.ai)",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:gad7": "playwright test --grep @gad7",
+    "test:gad7:baseline": "playwright test --grep GAD7-BASE-001",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report reports/html",
+    "install:browsers": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^22.10.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.2"
+  }
+}

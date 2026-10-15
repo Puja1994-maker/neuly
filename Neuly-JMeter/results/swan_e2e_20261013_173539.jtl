@@ -1,0 +1,26 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1791893151815,1256,GET /screeners,200,OK,01 Setup - Screener catalogue 1-1,text,true,,2176,151,1,1,https://demo.neuly.ai/screeners,1248,0,912
+1791893153073,360,GET /api/screeners/meta,200,OK,01 Setup - Screener catalogue 1-1,text,true,,8417,228,1,1,https://demo.neuly.ai/api/screeners/meta,348,0,0
+1791893153472,888,TX - Vanderbilt (NICHQ),200,"Number of samples in transaction : 2, number of failing samples : 0",02 All assessments (scorecard combinations) 2-1,,true,,26240,418,1,1,null,0,584,161
+1791893153725,495,GET page /screeners/vanderbilt_assessment,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,2172,173,1,1,https://demo.neuly.ai/screeners/vanderbilt_assessment,495,0,161
+1791893154485,393,GET API /api/screeners/vanderbilt_assessment,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,24068,245,1,1,https://demo.neuly.ai/api/screeners/vanderbilt_assessment,349,0,0
+1791893154944,7875,TX - SWAN,200,"Number of samples in transaction : 4, number of failing samples : 0",02 All assessments (scorecard combinations) 2-1,,true,,14845,5042,1,1,null,0,3417,0
+1791893157060,324,GET page /screeners/swan_adhd_parent,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,2172,168,1,1,https://demo.neuly.ai/screeners/swan_adhd_parent,320,0,0
+1791893157653,368,GET API /api/screeners/swan_adhd_parent,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,12302,240,1,1,https://demo.neuly.ai/api/screeners/swan_adhd_parent,353,0,0
+1791893158559,1016,SWAN build dynamic report payload,200,Built SWAN payload runId=swan-1791893159435-33bfc1 mode=random total=0.11,02 All assessments (scorecard combinations) 2-1,text,true,,0,0,1,1,null,0,0,0
+1791893159829,6167,POST /api/screener-report (SWAN),200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,371,4634,1,1,https://demo.neuly.ai/api/screener-report,6166,0,0
+1791893166237,740,TX - SCARED Parent,200,"Number of samples in transaction : 2, number of failing samples : 0",02 All assessments (scorecard combinations) 2-1,,true,,20083,474,1,1,null,0,525,0
+1791893166493,341,GET page /screeners/screen_for_child_anxiety_related_disorders_parent,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,2176,201,1,1,https://demo.neuly.ai/screeners/screen_for_child_anxiety_related_disorders_parent,333,0,0
+1791893167101,399,GET API /api/screeners/screen_for_child_anxiety_related_disorders_parent,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,17907,273,1,1,https://demo.neuly.ai/api/screeners/screen_for_child_anxiety_related_disorders_parent,360,0,0
+1791893167503,684,TX - GAD-7 Self,200,"Number of samples in transaction : 2, number of failing samples : 0",02 All assessments (scorecard combinations) 2-1,,true,,6905,402,1,1,null,0,510,0
+1791893167758,341,GET page /screeners/gad_7_anxiety,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,2172,165,1,1,https://demo.neuly.ai/screeners/gad_7_anxiety,337,0,0
+1791893168353,343,GET API /api/screeners/gad_7_anxiety,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,4733,237,1,1,https://demo.neuly.ai/api/screeners/gad_7_anxiety,339,0,0
+1791893168697,786,TX - CAST,200,"Number of samples in transaction : 2, number of failing samples : 0",02 All assessments (scorecard combinations) 2-1,,true,,54102,444,1,1,null,0,530,0
+1791893168954,328,GET page /screeners/the_childhood_autism_spectrum_test,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,2172,186,1,1,https://demo.neuly.ai/screeners/the_childhood_autism_spectrum_test,328,0,0
+1791893169544,458,GET API /api/screeners/the_childhood_autism_spectrum_test,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,51930,258,1,1,https://demo.neuly.ai/api/screeners/the_childhood_autism_spectrum_test,367,0,0
+1791893170014,770,TX - AQ-Child,200,"Number of samples in transaction : 2, number of failing samples : 0",02 All assessments (scorecard combinations) 2-1,,true,,26340,406,1,1,null,0,525,0
+1791893170279,367,GET page /screeners/aq_child_parent,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,2172,167,1,1,https://demo.neuly.ai/screeners/aq_child_parent,367,0,0
+1791893170904,403,GET API /api/screeners/aq_child_parent,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,24168,239,1,1,https://demo.neuly.ai/api/screeners/aq_child_parent,371,0,0
+1791893171309,704,TX - Q-CHAT-25,200,"Number of samples in transaction : 2, number of failing samples : 0",02 All assessments (scorecard combinations) 2-1,,true,,16727,402,1,1,null,0,517,0
+1791893171561,324,GET page /screeners/q_chat_parent,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,2172,165,1,1,https://demo.neuly.ai/screeners/q_chat_parent,320,0,0
+1791893172149,380,GET API /api/screeners/q_chat_parent,200,OK,02 All assessments (scorecard combinations) 2-1,text,true,,14555,237,1,1,https://demo.neuly.ai/api/screeners/q_chat_parent,352,0,0

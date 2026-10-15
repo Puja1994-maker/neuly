@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1791896644271,7460,TX - GAD-7 baseline,200,"Number of samples in transaction : 2, number of failing samples : 0",01 GAD-7 single user baseline 1-1,,true,,5108,2804,1,1,null,0,358,841
+1791896644457,1203,GET API /api/screeners/gad_7_anxiety,200,OK,01 GAD-7 single user baseline 1-1,text,true,,4737,245,1,1,https://demo.neuly.ai/api/screeners/gad_7_anxiety,1182,0,841
+1791896645831,6257,POST /api/screener-report (GAD-7),200,OK,01 GAD-7 single user baseline 1-1,text,true,,371,2559,1,1,https://demo.neuly.ai/api/screener-report,6257,0,0

@@ -1,0 +1,14 @@
+{
+  "testCaseId": "VANDERBILT-BASE-001",
+  "screener": "Vanderbilt",
+  "route": "vanderbilt_assessment",
+  "runId": "2026-10-14T14-05-56-471Z_g827iw",
+  "allQuestionsCompleted": true,
+  "resultScreenVisible": true,
+  "reportAttempted": true,
+  "reportConfirmed": true,
+  "scoreText": null,
+  "classificationText": null,
+  "evidenceDir": "evidence\\VANDERBILT\\VANDERBILT-BASE-001\\2026-10-14T14-05-56-471Z_g827iw",
+  "notes": "Live completion screen reached and report form attempted once. Email delivery is not verified in this phase."
+}

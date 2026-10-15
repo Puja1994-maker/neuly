@@ -1,0 +1,4 @@
+# Copy to gad7.properties and set your test mailbox in the JSON file (data/gad7_baseline_report.json).
+gad7_project_root=C:/Users/PUJABANSODE/Neuly/Neuly-JMeter/GAD7_Fresh_Start/
+enable_gad7_report_submit=true
+gad7_report_payload=data/gad7_baseline_report.json

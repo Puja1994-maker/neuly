@@ -1,0 +1,22 @@
+{
+    "runId": "swan-1791893159435-33bfc1",
+    "answerMode": "random",
+    "postElapsedMs": 6167,
+    "httpCode": "200",
+    "jmeterSuccess": true,
+    "reportSubmitSuccess": true,
+    "reportMessage": "Your report has been sent to your email.",
+    "parseError": "",
+    "overallPass": true,
+    "expectedScores": {
+        "totalScore": "0.11",
+        "attention": "0.22",
+        "activity": "0.0"
+    },
+    "resultSummary": {
+        "totalScoreDisplay": "0.11",
+        "attentionDisplay": "0.22",
+        "activityDisplay": "0.0",
+        "overallClassification": "See email report (API returns success only)"
+    }
+}

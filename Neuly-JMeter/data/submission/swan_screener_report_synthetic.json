@@ -1,0 +1,57 @@
+{
+  "email": "qa.neuly.synthetic+swan@example.test",
+  "screenerTitle": "SWAN (Strengths and Weaknesses of ADHD-symptoms and Normal-behaviour)",
+  "screenerId": "swan_adhd_parent",
+  "completedAt": "2026-10-13T11:15:51.262Z",
+  "questions": [
+    {"number":1,"questionId":"close_attention_detail","optionId":"below_average","text":"Give close attention to detail and avoid careless mistakes","answer":"Below","points":-2,"scored":true},
+    {"number":2,"questionId":"sustain_attention","optionId":"below_average","text":"Sustain attention on tasks or play activities","answer":"Below","points":-2,"scored":true},
+    {"number":3,"questionId":"listen_spoken","optionId":"below_average","text":"Listen when spoken to directly","answer":"Below","points":-2,"scored":true},
+    {"number":4,"questionId":"follow_through","optionId":"slightly_below_average","text":"Follow through on instructions & finish school work/chores","answer":"Slightly below","points":-1,"scored":true},
+    {"number":5,"questionId":"organise_tasks","optionId":"slightly_below_average","text":"Organize tasks and activities","answer":"Slightly below","points":-1,"scored":true},
+    {"number":6,"questionId":"sustained_mental_effort","optionId":"slightly_below_average","text":"Engage in tasks that require sustained mental effort","answer":"Slightly below","points":-1,"scored":true},
+    {"number":7,"questionId":"keep_track","optionId":"average","text":"Keep track of things necessary for activities","answer":"Average","points":0,"scored":true},
+    {"number":8,"questionId":"ignore_extraneous","optionId":"average","text":"Ignore extraneous stimuli","answer":"Average","points":0,"scored":true},
+    {"number":9,"questionId":"remember_daily","optionId":"slightly_above_average","text":"Remember daily activities","answer":"Slightly above","points":1,"scored":true},
+    {"number":10,"questionId":"sit_still","optionId":"slightly_above_average","text":"Sit still (control movement of hands/ feet or control squirming)","answer":"Slightly above","points":1,"scored":true},
+    {"number":11,"questionId":"stay_seated","optionId":"above_average","text":"Stay seated (when required by class rules/social conventions)","answer":"Above","points":2,"scored":true},
+    {"number":12,"questionId":"modulate_motor","optionId":"above_average","text":"Modulate motor activity (inhibit inappropriate running/climbing)","answer":"Above","points":2,"scored":true},
+    {"number":13,"questionId":"play_quietly","optionId":"far_above_average","text":"Play quietly (keep noise level reasonable)","answer":"Far above","points":3,"scored":true},
+    {"number":14,"questionId":"settle_rest","optionId":"far_above_average","text":"Settle down and rest (control constant activity)","answer":"Far above","points":3,"scored":true},
+    {"number":15,"questionId":"modulate_verbal","optionId":"far_above_average","text":"Modulate verbal activity (control excess talking)","answer":"Far above","points":3,"scored":true},
+    {"number":16,"questionId":"reflect_questions","optionId":"far_below_average","text":"Reflect on questions (control blurting out answers)","answer":"Far below","points":-3,"scored":true},
+    {"number":17,"questionId":"await_turn","optionId":"far_below_average","text":"Await turn (stand in line and take turns)","answer":"Far below","points":-3,"scored":true},
+    {"number":18,"questionId":"enter_without_intruding","optionId":"far_below_average","text":"Enter into conversations & games (control interrupting/intruding)","answer":"Far below","points":-3,"scored":true}
+  ],
+  "submittedAnswers": {
+    "close_attention_detail": "below_average",
+    "sustain_attention": "below_average",
+    "listen_spoken": "below_average",
+    "follow_through": "slightly_below_average",
+    "organise_tasks": "slightly_below_average",
+    "sustained_mental_effort": "slightly_below_average",
+    "keep_track": "average",
+    "ignore_extraneous": "average",
+    "remember_daily": "slightly_above_average",
+    "sit_still": "slightly_above_average",
+    "stay_seated": "above_average",
+    "modulate_motor": "above_average",
+    "play_quietly": "far_above_average",
+    "settle_rest": "far_above_average",
+    "modulate_verbal": "far_above_average",
+    "reflect_questions": "far_below_average",
+    "await_turn": "far_below_average",
+    "enter_without_intruding": "far_below_average"
+  },
+  "scoreResult": {
+    "formKey": "swan_adhd_parent",
+    "totalScore": -0.16,
+    "subscales": [
+      {"label": "Attention", "score": -0.89},
+      {"label": "Activity and impulsivity", "score": 0.56}
+    ]
+  },
+  "marketingOptIn": false,
+  "childAgeYears": "7",
+  "childAgeMonths": "0"
+}

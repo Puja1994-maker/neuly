@@ -1,0 +1,9 @@
+node_modules/
+.env
+test-results/
+reports/
+evidence/
+test-data/.auth/
+downloads/
+*.log
+.DS_Store

@@ -1,0 +1,14 @@
+{
+  "testCaseId": "SWAN-BASE-001",
+  "screener": "SWAN",
+  "route": "swan_adhd_parent",
+  "runId": "2026-10-14T14-05-21-027Z_dsr9tx",
+  "allQuestionsCompleted": true,
+  "resultScreenVisible": true,
+  "reportAttempted": true,
+  "reportConfirmed": true,
+  "scoreText": null,
+  "classificationText": null,
+  "evidenceDir": "evidence\\SWAN\\SWAN-BASE-001\\2026-10-14T14-05-21-027Z_dsr9tx",
+  "notes": "Live completion screen reached and report form attempted once. Email delivery is not verified in this phase."
+}

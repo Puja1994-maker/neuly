@@ -1,0 +1,14 @@
+{
+  "testCaseId": "QCHAT-BASE-001",
+  "screener": "Q-CHAT",
+  "route": "q_chat_parent",
+  "runId": "2026-10-14T14-10-24-720Z_sq9wjp",
+  "allQuestionsCompleted": true,
+  "resultScreenVisible": true,
+  "reportAttempted": true,
+  "reportConfirmed": true,
+  "scoreText": null,
+  "classificationText": null,
+  "evidenceDir": "evidence\\Q-CHAT\\QCHAT-BASE-001\\2026-10-14T14-10-24-720Z_sq9wjp",
+  "notes": "Live completion screen reached and report form attempted once. Email delivery is not verified in this phase."
+}

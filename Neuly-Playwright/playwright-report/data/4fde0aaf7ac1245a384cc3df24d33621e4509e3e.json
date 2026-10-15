@@ -1,0 +1,14 @@
+{
+  "testCaseId": "SCARED-BASE-001",
+  "screener": "SCARED",
+  "route": "screen_for_child_anxiety_related_disorders_parent",
+  "runId": "2026-10-14T14-07-16-115Z_o7jhsw",
+  "allQuestionsCompleted": true,
+  "resultScreenVisible": true,
+  "reportAttempted": true,
+  "reportConfirmed": true,
+  "scoreText": "10",
+  "classificationText": null,
+  "evidenceDir": "evidence\\SCARED\\SCARED-BASE-001\\2026-10-14T14-07-16-115Z_o7jhsw",
+  "notes": "Live completion screen reached and report form attempted once. Email delivery is not verified in this phase."
+}

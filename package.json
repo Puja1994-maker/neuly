@@ -1,0 +1,16 @@
+{
+  "name": "neuly-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Neuly scoring and screener test project",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.js"
+  },
+  "keywords": ["neuly", "screener", "jmeter", "assessment"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "supertest": "^7.0.0"
+  }
+}

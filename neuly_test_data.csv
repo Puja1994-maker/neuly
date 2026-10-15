@@ -1,0 +1,5 @@
+base_value,growth_rate,volume,efficiency,risk_factor
+1000,0.12,5,0.9,2
+2000,0.08,3,0.85,1.5
+500,0.15,10,0.7,4
+15000,0.04,2,0.95,3

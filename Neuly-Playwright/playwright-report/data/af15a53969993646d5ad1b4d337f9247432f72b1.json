@@ -1,0 +1,14 @@
+{
+  "testCaseId": "AQ-CHILD-BASE-001",
+  "screener": "AQ-Child",
+  "route": "aq_child_parent",
+  "runId": "2026-10-14T14-09-13-364Z_jni566",
+  "allQuestionsCompleted": true,
+  "resultScreenVisible": true,
+  "reportAttempted": true,
+  "reportConfirmed": true,
+  "scoreText": null,
+  "classificationText": null,
+  "evidenceDir": "evidence\\AQ-CHILD\\AQ-CHILD-BASE-001\\2026-10-14T14-09-13-364Z_jni566",
+  "notes": "Live completion screen reached and report form attempted once. Email delivery is not verified in this phase."
+}
